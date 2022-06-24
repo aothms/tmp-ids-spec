@@ -6,7 +6,7 @@
 
 ## Introduction
 
-An IDS is a file format ending in `.ids` containing a list of information **Specifications**. For example, a single **Specification** might say that "_all walls must have a fire rating property_". Model authors receiving an IDS file can use it to ensure all required information is provided for each **Specification**. Model recipients may use the IDS file to check whether the IFC model meets all of the **Specifications**. Reports may also be generated to list the results of **Specification** compliance checks.
+A buildingSMART IDS file is an XML-based format ending in `.ids` containing a list of information **Specifications**. For example, a single **Specification** might say that "_all walls must have a fire rating property_". Model authors receiving an IDS file can use it to ensure all required information is provided for each **Specification**. Model recipients may use the IDS file to check whether the IFC model meets all of the **Specifications**. Reports may also be generated to list the results of **Specification** compliance checks.
 
 ![IDS Diagram](ids-diagram.png)
 
@@ -45,7 +45,7 @@ When a **Facet** is used in the **Requirements** section, the **Facet** describe
 
 ![IDS Structure](ids-structure.png)
 
-There are five different **Facets** of information:
+There are six different **Facets** of information:
 
 Facet Type | Facet Parameters | Example applicability | Example requirement
 --- | --- | --- | ---
